@@ -4,27 +4,24 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style/index.css" />
+    <title id="title"></title>
   </head>
   <body>
-    <div class="window centered">
+    <div class="window">
       <div class="title-bar">
-        <div class="title-bar-text">
-          <p id="title-bar-text">paulkoeck.dev</p>
-        </div>
-        <div class="title-bar-icons">
-          <span class="dot background-green"></span>
-          <span class="dot background-orange"></span>
-          <span class="dot background-red"></span>
+        <p id="title-bar-title">Your Name</p>
+        <div class="title-bar-navigation">
+          <div class="dot dot-3"></div>
+          <div class="dot dot-2"></div>
+          <div class="dot dot-1"></div>
         </div>
       </div>
-      <div class="terminal-box">
-        <div id="terminal" class="terminal"></div>
-      </div>
+      <div id="terminal" class="terminal"></div>
     </div>
     <div class="footer">
-      <p id="copyright-text">Copyright 2020 Paul Koeck</p>
+      <p id="copyright-text">Copyright 2020 Your Name</p>
     </div>
-    <script type="text/javascript" src="/config.js"></script>
-    <script type="text/javascript" src="./scripts/terminal.js"></script>
+    <script type="text/javascript" type="module" src="./config.js"></script>
+    <script type="text/javascript" type="module" src="./scripts/app.js"></script>
   </body>
 </html>
