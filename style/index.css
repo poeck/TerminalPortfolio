@@ -176,7 +176,47 @@ span {
   resize: none;
 }
 
+#notification {
+  flex-direction: column;
+  position: fixed;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 3;
+  background: var(--background);
+  width: 100vw;
+  height: 100vh;
+}
+
+#notification p {
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+#notification a {
+  font-size: 30px;
+  text-decoration: underline;
+  color: var(--accent-color-1);
+}
+
+@media screen and (max-width: 1000px) {
+  #notification {
+    display: flex;
+  }
+}
+
+@media screen and (max-height: 600px) {
+  #notification {
+    display: flex;
+  }
+}
+
 @media screen and (max-width: 700px) {
+  .window {
+    padding: calc(var(--terminal-border-radius) * 0.75);
+  }
+
   .title-bar {
     width: 100%;
     font-size: 15pt;
