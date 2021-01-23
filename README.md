@@ -6,7 +6,7 @@ A minimalistic, interactive Portfolio Template
 
 ## Example
 
-![alt example](https://github.com/paulkoeckdev/TerminalPortfolio/blob/master/example.png?raw=true)
+![alt example](https://github.com/paulkoeckdev/TerminalPortfolio/blob/main/example.png?raw=true)
 
 ## Installation / Setup
 
