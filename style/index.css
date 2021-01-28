@@ -101,6 +101,7 @@ body {
   transform: translate(-50%, -50%);
   border-radius: var(--terminal-border-radius);
   padding: var(--terminal-border-radius);
+  padding-top: 20px;
 }
 
 .title-bar {
