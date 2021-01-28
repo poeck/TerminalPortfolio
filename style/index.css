@@ -151,6 +151,10 @@ body {
   border-radius: 5px;
 }
 
+.terminal::-webkit-scrollbar:horizontal {
+  height: 10px;
+}
+
 .terminal::-webkit-scrollbar {
   width: 10px;
 }
