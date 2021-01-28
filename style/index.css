@@ -7,6 +7,9 @@
   --terminal-background: #171a1f;
   --terminal-shadow: rgba(0, 0, 0, 0.2);
 
+  --scrollbar-background: #29292a;
+  --scrollbar-handle: #3e4144;
+
   --color-white: #fff;
   --color-grey: rgb(196, 196, 196);
 
@@ -132,11 +135,24 @@ body {
   background: transparent;
   color: var(--text);
   overflow: auto;
-  scrollbar-color: dark;
   font-size: 25px;
   border: none;
   outline: none;
   resize: none;
+}
+
+.terminal::-webkit-scrollbar {
+  background: var(--scrollbar-background);
+  border-radius: 5px;
+}
+
+.terminal::-webkit-scrollbar-thumb {
+  background-color: var(--scrollbar-handle);
+  border-radius: 5px;
+}
+
+.terminal::-webkit-scrollbar {
+  width: 10px;
 }
 
 .line {
